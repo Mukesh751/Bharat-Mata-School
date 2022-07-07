@@ -1,0 +1,249 @@
+
+  body{
+    background-color: #d3ff0036;
+  }
+  
+    nav {
+        
+  margin: 0;
+  padding: 0;
+  background-color: #007bff;
+}
+ 
+
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+nav ul {
+  float: left;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+ 
+nav ul li {
+  margin: 0px;
+  display: inline-block;
+  float: left;
+  background-color: #007bff;
+}
+ 
+nav a {
+  display: block;
+  padding: 0 20px;
+  color: #FFF;
+  font-size: 20px;
+  line-height: 60px;
+  text-decoration: none;
+}
+ 
+nav ul li ul li:hover { background: #fff; }
+nav a:hover { background-color: #fff; }
+ 
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 60px;
+}
+ 
+nav ul li:hover > ul { display: inherit; }
+ 
+nav ul ul li {
+  width: 170px;
+  float: none;
+  display: list-item;
+  position: relative;
+  z-index: 1;
+}
+ 
+nav ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 170px;
+}
+ 
+li > a:after { content: ' +'; }
+.toggle, [id^=drop] {
+ display: none;
+}
+li > a:only-child:after { content: ''; }
+
+/*Responsive Styles*/
+@media all and (max-width : 768px) {
+#logo {
+  display: block;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  float: none;
+}
+ 
+nav { margin: 0; }
+.toggle + a,
+ .menu { display: none; }
+.toggle {
+  display: block;
+  background-color: #007bff;
+  padding: 0 20px;
+  color: #FFF;
+  font-size: 20px;
+  line-height: 60px;
+  text-decoration: none;
+  border: none;
+}
+ 
+.toggle:hover { background-color: #fff; color:#007bff; }
+
+[id^=drop]:checked + ul { display: block; }
+ 
+nav ul li {
+  display: block;
+  width: 100%;
+}
+
+nav ul ul .toggle,
+
+ nav ul ul a { padding: 0 40px; }
+ 
+nav ul ul ul a { padding: 0 80px; }
+
+nav a:hover,
+
+ nav ul ul ul a { background-color: #000000; }
+
+nav ul li ul li .toggle,
+
+ nav ul ul a { background-color: #212121; }
+
+nav ul ul {
+  float: none;
+  position: static;
+  color: #ffffff;
+}
+
+nav ul ul li:hover > ul,
+
+nav ul li:hover > ul { display: none; }
+
+ nav ul ul li {
+  display: block;
+  width: 100%;
+}
+
+nav ul ul ul li { 
+   position: static;
+}
+}
+ 
+@media all and (max-width : 330px) {
+nav ul li {
+  display: block;
+  width: 94%;
+}
+}
+
+#header{
+  width: 100%;
+  height: 80vh;
+     }
+  .carousel{
+    height: 100%;
+  }
+    .carousel-inner{
+      height: 100%;
+    }
+      .carousel-item{
+        height: 100%;
+      }
+        .title{
+          position: absolute;
+          text-align: center;
+          width: 100%;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%,-50%);
+          color: #fff;
+        }
+          h1{
+            font-size: 5rem;
+          }
+          .animated {
+            animation-duration: 1s;
+            animation-delay: .5s;
+          }
+        
+        .carousel-item img{
+          object-fit: cover;
+          height: 100%;
+        }
+
+  .card{
+    background-color: #fdd835;
+  }
+  
+  .col-50{
+    width:50%;
+  }
+
+  @media only screen and (max-width: 800px){
+    .col-50{
+      width:100%;
+    }
+  }
+
+  div#carousel { 
+  perspective: 1200px; 
+  background: #100000; 
+  padding-top: 10%; 
+  font-size:0; 
+  margin-bottom: 3rem; 
+  overflow: hidden; 
+}
+figure#spinner { 
+  transform-style: preserve-3d; 
+  height: 300px; 
+  transform-origin: 50% 50% -500px; 
+  transition: 1s; 
+} 
+figure#spinner img { 
+  width: 40%; max-width: 425px; 
+  position: absolute; left: 30%;
+  transform-origin: 50% 50% -500px;
+  outline:1px solid transparent; 
+}
+figure#spinner img:nth-child(1) { transform:rotateY(0deg); 
+}
+figure#spinner img:nth-child(2) { transform: rotateY(-45deg); }
+figure#spinner img:nth-child(3) { transform: rotateY(-90deg); }
+figure#spinner img:nth-child(4) { transform: rotateY(-135deg); }
+figure#spinner img:nth-child(5){ transform: rotateY(-180deg); }
+figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
+figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
+figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
+div#carousel ~ span { 
+  color: #fff; 
+  margin: 5%; 
+  display: inline-block; 
+  text-decoration: none; 
+  font-size: 2rem; 
+  transition: 0.6s color; 
+  position: relative; 
+  margin-top: -6rem; 
+  border-bottom: none; 
+  line-height: 0; }
+div#carousel ~ span:hover { color: #888; cursor: pointer; }
+ 
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+
+ 
