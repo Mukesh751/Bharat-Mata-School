@@ -5,9 +5,9 @@
 // $db = "schooldb";
 
 $servername = "remotemysql.com";
-$username = "Kw9ZVIpjAA";
-$password = "7MCST81P1z";
-$db = "Kw9ZVIpjAA";
+$username = "Zb6j56iNBQ";
+$password = "JHxSTOiKRK";
+$db = "Zb6j56iNBQ";
 $conn = mysqli_connect($servername, $username, $password, $db);
 
 if (!$conn) {
