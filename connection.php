@@ -4,10 +4,10 @@
 // $password = "";
 // $db = "schooldb";
 
-$servername = "remotemysql.com";
-$username = "Zb6j56iNBQ";
-$password = "JHxSTOiKRK";
-$db = "Zb6j56iNBQ";
+$servername = "sql12.freemysqlhosting.net
+$username = "sql12535568";
+$password = "BuSa7xA4U6";
+$db = "sql12535568";
 $conn = mysqli_connect($servername, $username, $password, $db);
 
 if (!$conn) {
