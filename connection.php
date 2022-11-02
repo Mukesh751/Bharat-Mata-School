@@ -4,7 +4,7 @@
 // $password = "";
 // $db = "schooldb";
 
-$servername = "sql12.freemysqlhosting.net
+$servername = "sql12.freemysqlhosting.net";
 $username = "sql12535568";
 $password = "BuSa7xA4U6";
 $db = "sql12535568";
