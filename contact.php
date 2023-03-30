@@ -69,7 +69,7 @@ include('nav.php');
 				        			<span class="fa fa-map-marker"></span>
 				        		</div>
 				        		<div class="text pl-3">
-					            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+					            <p><span>Address:</span> Rakhi, Sec.26, Naya Raipur, raipur, Chhattisgarh 492015</p>
 					          </div>
 				          </div>
 				        	<div class="dbox w-100 d-flex align-items-center">
@@ -77,7 +77,7 @@ include('nav.php');
 				        			<span class="fa fa-phone"></span>
 				        		</div>
 				        		<div class="text pl-3">
-					            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+					            <p><span>Phone:</span> <a href="tel://09479118247">+91 09479118247</a></p>
 					          </div>
 				          </div>
 				        	<div class="dbox w-100 d-flex align-items-center">
@@ -85,7 +85,7 @@ include('nav.php');
 				        			<span class="fa fa-envelope"></span>
 				        		</div>
 				        		<div class="text pl-3">
-					            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+					            <p><span>Email:</span> <a href="mailto:bharatmataschool@gmail.com">bharamataschool@gmail.com</a></p>
 					          </div>
 				          </div>
 				        	<div class="dbox w-100 d-flex align-items-center">
@@ -93,7 +93,7 @@ include('nav.php');
 				        			<span class="fa fa-globe"></span>
 				        		</div>
 				        		<div class="text pl-3">
-					            <p><span>Website</span> <a href="#">yoursite.com</a></p>
+					            <p><span>Website</span> <a href="#">bharamataschool.com</a></p>
 					          </div>
 				          </div>
 			          </div>
@@ -107,8 +107,8 @@ include('nav.php');
 
   <div class="container">
     <div class="row pt-5">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.00601253218!2d81.63799651466161!3d21.27122958586747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28e782595243c7%3A0xb07998cb8b150a7d!2sKendriya%20Vidyalaya%20No.1%20Raipur!5e0!3m2!1sen!2sin!4v1647853509872!5m2!1sen!2sin" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-  </div>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.318046628369!2d81.79104151488531!3d21.13973758593836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28c68ec6e5d275%3A0xaea45aa61c7dd442!2sBharat%20Mata%20Senior%20Secondary%20School!5e0!3m2!1sen!2sin!4v1680158122541!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
   </div>
   <style>
    
