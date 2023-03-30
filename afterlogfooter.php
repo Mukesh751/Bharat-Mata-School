@@ -26,25 +26,25 @@
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 text-dark">
               <h6 class="text-uppercase mb-4 font-weight-bold">Useful Links</h6>
               <p>
-                <a href="afterlogindex.php">Home</a>
+                <a href="afterlogindex.php" style = "color: black;">Home</a>
               </p>
               <p>
-                <a href="aboutschool.php">About School</a>
+                <a href="aboutschool.php" style = "color: black;">About School</a>
               </p>
               <p>
-                <a href="faculty.php">Faculty</a>
+                <a href="faculty.php" style = "color: black;">Faculty</a>
               </p>
               <p>
-                <a href="courses.php">Courses</a>
+                <a href="courses.php" style = "color: black;">Courses</a>
               </p>
               <p>
-                <a href="imagegallery.php">Gallery</a>
+                <a href="imagegallery.php" style = "color: black;">Gallery</a>
               </p>
               <p>
-                <a href="events.php">Events</a>
+                <a href="events.php" style = "color: black;">Events</a>
               </p>
               <p>
-                <a href="contact.php">Contact</a>
+                <a href="contact.php" style = "color: black;">Contact</a>
               </p>
             </div>
             <!-- Grid column -->
@@ -57,9 +57,9 @@
             <!-- Grid column -->
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-dark">
               <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-              <p><i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
-              <p><i class="fa fa-envelope mr-3"></i> info@gmail.com</p>
-              <p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+              <p><a style = "color: black;" href="https://goo.gl/maps/k3SD5JjMfevfXmh18" target="_blank"><i class="fa fa-home mr-3"></i>Rakhi, Sec.26, Naya Raipur, raipur, Chhattisgarh 492015</a></p>
+              <p><a style = "color: black;" href="mailto:bharatmataschool@gmail.com" target="_blank"><i class="fa fa-envelope mr-3"></i> bharatmataschool@gmail.com</a></p>
+              <p><a style = "color: black;" href="tel:+91 xxxxxx xxxxx"><i class="fa fa-phone mr-3"></i> +91 094791 18247</a></p>
               
             </div>
             <!-- Grid column -->
