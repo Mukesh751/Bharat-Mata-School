@@ -31,8 +31,8 @@ include('head.php');
        </div>
 
         <div class="col pt-5">
-            <p class="pt-2"> <a href="https://goo.gl/maps/z7sswn7EZ7WG91s5A" target="_blank"><i class="fa fa-map-marker"></i> Kendriya Vidyalaya No.2, Behind Police Station, Jagjiwan Nagar, Dhanbad, Jharkhand 826003</a></p>
-            <p><a href="tel:00000000000"><i class="fa fa-phone"></i> 0000000000000 </a></p>
+            <p class="pt-2"> <a href="https://goo.gl/maps/k3SD5JjMfevfXmh18" target="_blank"><i class="fa fa-map-marker"></i> Rakhi, Sec.26, Naya Raipur, raipur, Chhattisgarh 492015</a></p>
+            <p><a href="tel:00000000000"><i class="fa fa-phone"></i> 094791 18247</a></p>
             <p><a href="mailto:bharatmataschool@gmail.com" target="_blank"><i class="fa fa-envelope"></i> bharamataschool@gmail.com </a></p>  
            <div class="row">
             <p class="pl-3"><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i> </a></p> 
